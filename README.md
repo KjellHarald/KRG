@@ -1,4 +1,5 @@
-# KRG
+# KRG 
+# Gruppe A.1 Kjell, Rune og Glenn
 
 ### Heile solsystemet.
 
@@ -24,7 +25,7 @@ sider: index, +2
 
 - Farger & Font | Ren font!
 
-## KH
+## Kjell
 - Git Repo
 - Discord 
 - Søkefunksjon
