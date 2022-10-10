@@ -1,0 +1,38 @@
+body {
+}
+
+#navBarBtn {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+#navBarBtn:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+#dropDownOne {
+  opacity: 0;
+}
+
+#dropDownTwo {
+  opacity: 0;
+}
+
+.navBtns {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  transition: 0.3s;
+  font-weight: 800;
+  width: 90px;
+}
+
+.navBtns:hover {
+  box-shadow: 0px 0px 10px black;
+  transition: 0s;
+}
