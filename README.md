@@ -19,7 +19,7 @@ sider: index, +2
  3. 
 
 ## Felles
-- Forside
+- Forside, a# smooth scroll, a# smooth scroll top
 - Informasjon
 - Figma
 
