@@ -1,6 +1,6 @@
 # KRG
 
-Heile solsystemet.
+### Heile solsystemet.
 
 indexert sider.
     - contact
@@ -12,14 +12,10 @@ sider: index, +2
 - About + contact form +-+ FAQ
 - Søkefunksjon som scroller til bestemt tema
 
-## contect from
+## contact from
  1. input email
  2. textarea message
  3. 
-
-BG #000
-text #fff, f2,
-
 
 ## Felles
 - Forside
@@ -47,7 +43,16 @@ text #fff, f2,
 - Stretch, lag space invader + font
 
 
-
 ## Stretch
 - system animasjon
 - Supernova som oppretter solsystemet
+
+# Hve vi vil oppnå
+1. Lagarbeid
+2. Lære nytt, lære av hverandre
+3. Bli flinkere på UI/UX
+4. Lære mer om design
+5. Full nettbrett og mobil vennlighet
+
+# Gruppeleder Kjell Harald
+- Innlevering
