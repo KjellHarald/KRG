@@ -1,19 +1,36 @@
 body {
+  background-image: url("images/space.jpg");
+  height: 100vh;
+  margin: 0px
 }
 
 #navBarBtn {
-  border-radius: 5px;
-  border: 1px solid black;
-  width: 70px;
-  height: 70px;
-  margin-bottom: 10px;
+  border-radius: 7px;
   font-weight: 800;
+  transform: rotate(90deg);
+  font-size: 45px;
+  height: 100px;
+  width: 100px;
+  padding-bottom: 5px;
+  background: black;
+  color: purple;
+  outline: 2px solid;
+  outline-color: purple;
+  outline-offset: 0px;
+  transition: 0.5s;
+  margin: 5px 0px 0px 5px;
+  opacity: 0.95;
 }
 
 #navBarBtn:hover {
-  box-shadow: 0px 0px 10px black;
+  outline-offset: 50px;
+  outline-color: transparent;
+  box-shadow: 0 0 10px purple;
+  
 }
-
+#navBarBtn:active {
+  transform:translateY(0px)
+}
 #dropDownOne {
   opacity: 0;
 }
@@ -23,16 +40,31 @@ body {
 }
 
 .navBtns {
-  border-radius: 5px;
+  background: black;
+  color: purple;
+  text-align: center;
+  border-radius: 7px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  transition: 0.3s;
+  transition: 0.5s;
+  font-size: 17px;
   font-weight: 800;
-  width: 90px;
+  width: 100px;
+  margin-top: 10px;
+  outline: 2px solid;
+  outline-color: purple;
+  outline-offset: 0px;
+  margin: 10px 0px 0px 5px;
+  opacity: 0.95;
 }
 
 .navBtns:hover {
-  box-shadow: 0px 0px 10px black;
-  transition: 0s;
+  outline-color: transparent;
+  box-shadow: 0px 0px 10px purple;
+  outline-offset: 50px;
 }
+.navBtns:active {
+  transform: translateX(20px)
+}
+
+
