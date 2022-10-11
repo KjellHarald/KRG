@@ -22,7 +22,7 @@ sider: index, +2
 - Forside, a# smooth scroll, a# smooth scroll top
 - Informasjon
 - Figma
-
+- **stretch** dark/light mode
 - Farger & Font | Ren font!
 
 ## Kjell
@@ -42,6 +42,7 @@ sider: index, +2
 - collapse funksjon js
 - Kontroll på Figma
 - Stretch, lag space invader + font
+- Finn bilder
 
 
 ## Stretch

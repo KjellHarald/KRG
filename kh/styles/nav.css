@@ -1,0 +1,64 @@
+
+#navBarBtn {
+  border-radius: 7px;
+  font-weight: 800;
+  transform: rotate(90deg);
+  font-size: 45px;
+  height: 130px;
+  width: 130px;
+  padding-bottom: 5px;
+  background: black;
+  color: purple;
+  outline: 2px solid;
+  outline-color: purple;
+  outline-offset: 0px;
+  transition: 0.5s;
+  margin: 5px 0px 0px 5px;
+  opacity: 0.95;
+}
+
+#navBarBtn:hover {
+  outline-offset: 50px;
+  outline-color: transparent;
+  box-shadow: 0 0 10px purple;
+}
+#navBarBtn:active {
+  transform: translateY(0px);
+}
+.wrap-drop-down {
+  position:fixed;
+  top:150px;
+  left:12px;
+}
+.navBtns {
+  z-index:10;
+  background: black;
+  color: purple;
+  text-align: center;
+  border-radius: 7px;
+  /*display: flex;
+  flex-direction: column;*/
+  transition: 0.5s;
+  font-size: 17px;
+  font-weight: 800;
+  width: 100px;
+  margin-top: 10px;
+  margin: 10px 0px 0px 5px;
+  opacity: 0;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px purple;
+
+  outline-color: transparent;
+  box-shadow: 0px 0px 10px purple;
+  outline-offset: 50px;
+}
+
+.navBtns:hover {
+  outline: 3px solid;
+  outline-color: purple;
+  outline-offset: 0px;
+  cursor: pointer;
+}
+.navBtns:active {
+  transform: translateX(20px);
+}

@@ -1,0 +1,27 @@
+.wrap-search {
+    display:block;
+    width:100%;
+    min-width:250px;
+    max-width:500px;
+    margin:0 auto;
+    padding:12px 22px;
+    border:1px solid #f2f2f2;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+}
+.wrap-search, .wrap-search input,button {
+    background-color: #f2f2f2;
+}
+.wrap-search input, button {
+    padding:6px;
+    border:none;
+    margin:0 2px;
+}
+.wrap-search input {
+    width:96%;
+}
+.wrap-search button {
+    padding:auto 6px;
+    background-color: #d6d6d6;
+}
