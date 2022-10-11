@@ -1,23 +1,25 @@
-let drop = 0;
-let navbarOne = document.getElementById("dropDownOne");
-let navbarTwo = document.getElementById("dropDownTwo");
+let drop = true;
 
+const navBtns = document.querySelectorAll(".navBtns");
+const mainBtn = document.getElementById("navBarBtn");
 
-function nav() {
-  if (!drop) {
-    navbarOne.style.opacity = "0.95";
-    navbarTwo.style.opacity = "0.95";
-    navbarOne.style.padding = "20px 20px 20px 10px";
-    navbarTwo.style.padding = "20px 20px 20px 10px";
-    drop = 1;
+mainBtn.addEventListener("click", () => {
+  if (drop) {
+    navBtns.forEach((b) => {
+      b.style.opacity = "0.95";
+      b.style.padding = "20px 20px 20px 10px";
+      document.getElementById("navBarBtn").textContent = "X";
+      drop = false;
+    });
   } else {
-    navbarOne.style.padding = "0px";
-    navbarTwo.style.padding = "0px";
-    navbarOne.style.opacity = 0;
-    navbarTwo.style.opacity = 0;
-    drop = 0;
+    navBtns.forEach((b) => {
+      b.style.opacity = "0";
+      b.style.padding = "0px";
+      document.getElementById("navBarBtn").textContent = "|||";
+      drop = true;
+    });
   }
-}
+});
 
 function about() {}
 function contact() {}

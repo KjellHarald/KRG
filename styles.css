@@ -1,16 +1,20 @@
 body {
   background-image: url("images/space.jpg");
   height: 100vh;
-  margin: 0px
+  margin: 0px;
+  font-family: SpaceGrotesk;
 }
-
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
 #navBarBtn {
   border-radius: 7px;
   font-weight: 800;
   transform: rotate(90deg);
   font-size: 45px;
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   padding-bottom: 5px;
   background: black;
   color: purple;
@@ -26,17 +30,9 @@ body {
   outline-offset: 50px;
   outline-color: transparent;
   box-shadow: 0 0 10px purple;
-  
 }
 #navBarBtn:active {
-  transform:translateY(0px)
-}
-#dropDownOne {
-  opacity: 0;
-}
-
-#dropDownTwo {
-  opacity: 0;
+  transform: translateY(0px);
 }
 
 .navBtns {
@@ -51,20 +47,22 @@ body {
   font-weight: 800;
   width: 100px;
   margin-top: 10px;
-  outline: 2px solid;
-  outline-color: purple;
-  outline-offset: 0px;
   margin: 10px 0px 0px 5px;
-  opacity: 0.95;
-}
+  opacity: 0;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px purple;
 
-.navBtns:hover {
   outline-color: transparent;
   box-shadow: 0px 0px 10px purple;
   outline-offset: 50px;
 }
-.navBtns:active {
-  transform: translateX(20px)
+
+.navBtns:hover {
+  outline: 3px solid;
+  outline-color: purple;
+  outline-offset: 0px;
+  cursor: pointer;
 }
-
-
+.navBtns:active {
+  transform: translateX(20px);
+}
