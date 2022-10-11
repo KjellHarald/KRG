@@ -1,0 +1,24 @@
+body {
+  background: black;
+  color: #f2f2f2;
+  font-family: SpaceGrotesk;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+.stil {
+  word-wrap: break-word;
+  width: 100%;
+  min-width: 200px;
+  max-width: 600px;
+  color: #f2f2f2;
+  opacity: 1;
+  background: #f2f2f253;
+  padding: 2px 0px 5px 0px;
+  margin: 40px auto 0px auto;
+  border-radius: 10px;
+}
