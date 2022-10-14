@@ -1,0 +1,67 @@
+.planet {
+    /*min-height:100px;
+    max-height:400px;*/
+    position:relative;
+    min-height:100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index:1;
+}
+
+.paralaxtext {
+    color: white;
+    text-align: center;
+    opacity: 0%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    border-radius: 5px;
+  }
+
+.planet-description {
+    height:10px;
+    border-top: 2px solid #999595b6;
+    border-bottom:2px solid #999595b6;
+}
+.earth {
+    background-image: url('images/earth.jpg');
+    min-height:400px;
+}
+.mars {
+    background-image: url('images/mars.jpg');
+    min-height:400px;
+}
+.neptune {
+    background-image: url('images/neptune.jpg');
+    min-height:400px;
+}
+.saturn {
+    background-image: url('images/saturn.jpg');
+    min-height:400px;
+}
+.uranus {
+    background-image: url('images/uranus.jpg');
+    min-height:400px;
+}
+.jupiter {
+    background-image: url('images/jupiter.jpg');
+    min-height:400px;
+}
+.mercury {
+    background-image: url('images/mercury.jpg');
+    min-height:400px;
+}
+.venus {
+    background-image: url('images/venus.jpg');
+    min-height:400px;
+}
+.sun {
+    background-image: url('images/Sun.jpg');
+    min-height:400px;
+}
+.pluto {
+    background-image: url('images/pluto.jpg');
+    min-height:400px;
+}

@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: SpaceGrotesk;
+  background-color: #000;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  color: #f2f2f2;
+  margin: 4px 8px;
+}
+
+/*Top navigation*/
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 12px;
+}
+
+.desktop-only {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  margin: 0 6px;
+}
+
+/*solarsystem hero*/
+#solarsystem {
+  margin-top: 84px;
+  height: 100vh;
+}
+
+/*set backgorund for main-nav and solarsystem hero*/
+header,
+#solarsystem {
+  background-color: #000;
+}
+
+/*parallax planets*/
+.planet {
+  background-image: url("planeter.jpg"); /*this image is a placeholder*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.planet-description {
+  height: 200px;
+  background-color: #000;
+  padding: 3px;
+}
+
+footer {
+  color: #f2f2f2;
+}
+/*
+Set class planet name to change specific image/description
+E.g: .jorden
+*/
+
+/*Contact page*/
+.wrap-contact h1 {
+  text-align: center;
+}
+.wrap-contact {
+  width: 100%;
+  min-width: 250px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.contact-fields {
+  padding: 12px;
+}
+.contact-fields input,
+textarea,
+button {
+  display: block;
+}
+.contact-fields input {
+  padding: 6px;
+}
+.contact-fields textarea {
+  padding: 6px;
+  height: 150px;
+}
+.contact-fields input,
+textarea {
+  width: 100%;
+}
+.contact-fields button {
+  padding: 4px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+/* -----------Light and Dark mode------------ */
+#theme {
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: 0.5s;
+  outline-offset: 50px;
+  outline-color: transparent;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+#theme:hover {
+  outline: 2px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: 0px;
+  cursor: pointer;
+}
+#theme:active {
+  transform: translateY(3px);
+  transition: 0s;
+}
+
+/* -------------NAV BAR STUFF----------- */
+
+#navBarBtn {
+  letter-spacing: 0px;
+  border-radius: 7px;
+  transform: rotate(90deg);
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  margin: 5px 15px 0px 5px;
+  opacity: 0.95;
+  outline-offset: 50px;
+  outline-color: transparent;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#navBarBtn:hover {
+  outline: 2px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: 0px;
+  cursor: pointer;
+}
+#navBarBtn:active {
+  transform: translateY(0px);
+}
+.wrap-drop-down {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  left: 12px;
+  /* overflow-y: scroll;
+  height: 730px;  */
+}
+.navBtns {
+  z-index: 10;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  border-radius: 7px;
+  transition: 0.5s;
+  font-size: 17px;
+  width: 60px;
+  margin-bottom: 10px;
+  opacity: 0;
+  text-decoration: none;
+  outline-color: transparent;
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  outline-offset: 50px;
+  scroll-behavior: smooth;
+  visibility: hidden;
+}
+
+.navBtns:hover {
+  outline: 2px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: 0px;
+  cursor: pointer;
+}
+.navBtns:active {
+  transform: translateX(20px);
+}
+
+/* -----------Search stuff---------- */
+
+.wrap-search {
+  display: block;
+  width: 100%;
+  min-width: 250px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 12px 22px;
+  border: 1px solid #f2f2f2;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  margin-top: 50px;
+}
+.wrap-search,
+.wrap-search input,
+.wrap-search button {
+  background-color: #f2f2f2;
+}
+.wrap-search input,
+button {
+  padding: 6px;
+  border: none;
+  margin: 0 2px;
+}
+.wrap-search input {
+  width: 96%;
+}
+.wrap-search button {
+  padding: auto 6px;
+  background-color: #d6d6d6;
+}
+#search-btn {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  background: black;
+  color: white;
+  display:none;
+}
+#search-btn:hover {
+  cursor: pointer;
+}
+#search-btn:active {
+  transform: translateY(3px);
+}
+
+/* custom scrollbar for chrome */
+body::-webkit-scrollbar {
+  width: 3px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(247, 238, 238, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    rgba(14, 13, 13, 0.846),
+    rgb(11, 209, 240)
+  );
+}

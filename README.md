@@ -58,3 +58,5 @@ sider: index, +2
 
 # Gruppeleder Kjell Harald
 - Innlevering
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
